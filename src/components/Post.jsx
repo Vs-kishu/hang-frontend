@@ -63,7 +63,7 @@ export function Post({
   const sharePost = async (e) => {
     e.stopPropagation();
     await navigator.share({
-      url: `http://localhost:3000/post/${_id}`,
+      url: `https://hang-friends.netlify.app/post/${_id}`,
       title: `${firstname} ${lastname}'s post on Hooked`,
       text: content,
     });
