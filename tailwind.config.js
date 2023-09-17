@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "hsl(195, 100%, 45%)",
+        primary: "hsl(33, 75%, 62%)",
         dark: {
-          100: "hsl(196, 100%, 9%)",
-          200: "hsl(195, 100%, 6%)",
+          100: "hsl(50, 100%, 9%)",
+          200: "hsl(240, 100%, 6%)",
         },
         light: {
           100: "hsl(223, 100%, 100%)",

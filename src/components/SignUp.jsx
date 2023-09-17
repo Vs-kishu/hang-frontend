@@ -8,10 +8,10 @@ export function SignUp({ formik, isAuthenticationPending }) {
     false
   );
   return (
-    <div className="flex min-h-screen items-center justify-center bg-primary p-4 md:block md:p-16">
+    <div className="flex min-h-screen items-center justify-center bg-primary p-4  md:p-16">
       <div className="rounded-2xl bg-light-100 dark:bg-dark-100 lg:flex">
         <div className=" md:rounded-r-0 rounded-2xl bg-light-200 p-8 dark:bg-dark-200 md:rounded-l-2xl xl:max-w-screen-sm">
-          <div className="bg-light-200 dark:bg-dark-200 md:px-4 lg:px-12 xl:max-w-2xl xl:px-24">
+          <div className="bg-light-200 dark:bg-dark-200 md:px-4 lg:px-12 xl:max-w-2xl ">
             <h2
               className="xl:text-bold text-center font-display text-4xl font-semibold text-primary lg:text-left
               xl:text-5xl"
@@ -179,11 +179,6 @@ export function SignUp({ formik, isAuthenticationPending }) {
                 </Link>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="hidden flex-1 items-center justify-center rounded-r-2xl bg-light-100 dark:bg-dark-200 lg:flex ">
-          <div className="max-w-xs transform cursor-pointer duration-200 hover:scale-110">
-            <img src="/assets/friends.png" alt="a man opening a door" />
           </div>
         </div>
       </div>
